@@ -52,8 +52,11 @@ In relation to data flow (D) below;
 
 ## Data flows
 A) NRL Broker <--- GetPointersByPatient   --- NRL
+
 B) NRL Broker <--- GetDocumentByReference --- FHIR API 1
+
 C) NRL Broker <--- GetTokenByClientSecret --- Authorization Server
+
 D) NRL Broker  --- PostDocument          ---> FHIR API 2
 
 
